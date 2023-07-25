@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Play&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+    color: rgb(63, 235, 63);
+    font-family: 'Play', sans-serif;
+    font-size: 16px;
+    display: flex;
+    height: 100%;
+    width: 100vw;
+    overflow: hidden;
+    background-image: url("https://i.giphy.com/media/4OAxDXv4RdUeg38JYi/giphy.webp") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+p , span , input{
+    text-shadow: 2px 2px 5px #7df682;
+}
+
+
+.sideBoxes{
+    width: 30%;
+    height: 100vh;
+    padding: 50px 50px;
+}
+
+.sideBoxes-content{
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 30px 30px 10px 30px;
+    height: 100%;
+    background-image: url("https://i.giphy.com/media/V4NSR1NG2p0KeJJyr5/giphy.webp") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-origin: content-box;
+    background-clip: content-box;
+    filter: brightness(1.2);
+}
+
+.dummy{
+    overflow-wrap: break-word;
+}
+
+.centerBox{
+    width: 50%;
+    height: 100vh;
+    padding: 50px 10px;
+}
+
+.centerBox-content{
+    height: 100%;
+    padding: 30px;
+    border: 1px solid white;
+    border-radius: 10px;
+    background-color: #0000007a
+}
+
+#heading{
+    text-align: center;
+    font-size: 60px;
+    margin-bottom: 30px;
+}
+
+input{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: white;
+    width: 20vw;
+    font-size: 16px;
+}
+
+#done{
+    background-color: #282828a6;
+    text-align: center;
+    margin: 30px 0px;
+    padding: 20px 0px;
+    font-size: 20px;
+    border-radius: 10px;
+    text-shadow: none;
+    display: none;
+}
